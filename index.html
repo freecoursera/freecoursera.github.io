@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="download.png" alt="Coursera Logo" s>
+            <img src="/src/images/download.png" alt="Coursera Logo" s>
         </div>
         <div class="search-bar">
             <input type="text" id="search-input" placeholder="Search for a course...">
@@ -28,25 +28,25 @@
 
     <section class="course-cards">
         <div class="course-card">
-            <img src="/logo3.png" alt="Course 1">
+            <img src="/src/images/logo3.png" alt="Course 1">
             <h2>Algorithmic Toolbox</h2>
             <p>Course Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <a href="" class="learn-more-button">Learn More</a>
         </div>
     
         <div class="course-card">
-            <img src="/logo3.png" alt="Course 1">
-            <h2>Lorem, ipsum.</h2>
+            <img src="/src/images/logo3.png" alt="Course 2">
+            <h2>Course 2</h2>
             <p>Course Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <a href="#" class="learn-more-button">Learn More</a>
         </div> <div class="course-card">
-            <img src="/logo3.png" alt="Course 1">
-            <h2>Lorem, ipsum.</h2>
+            <img src="/src/images/logo3.png" alt="Course 3">
+            <h2>Course 3</h2>
             <p>Course Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <a href="#" class="learn-more-button">Learn More</a>
         </div> <div class="course-card">
-            <img src="/logo3.png" alt="Course 1">
-            <h2>Lorem, ipsum.</h2>
+            <img src="/src/images/logo3.png" alt="Course 4">
+            <h2>Course 4</h2>
             <p>Course Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <a href="#" class="learn-more-button">Learn More</a>
         </div>
@@ -57,33 +57,9 @@
         <p>&copy; Coursera Clone </p>
     </footer>
 
-    <script>
-        // Get references to the search input and button
-        const searchInput = document.getElementById('search-input');
-        const searchButton = document.getElementById('search-button');
-        const courseCards = document.querySelectorAll('.course-card'); // Get all course cards
+   
     
-        // Function to handle the search button click
-        searchButton.addEventListener('click', function () {
-            // Get the search query from the input
-            const query = searchInput.value.toLowerCase();
-    
-            // Loop through the course cards and show/hide based on the query
-            courseCards.forEach(function (card) {
-                // Get the course title from the h2 element
-                const courseTitle = card.querySelector('h2').textContent.toLowerCase();
-    
-                // Check if the query matches the course title
-                if (courseTitle.includes(query)) {
-                    card.style.display = 'block'; // Show matching card
-                } else {
-                    card.style.display = 'none'; // Hide non-matching cards
-                }
-            });
-        });
-    </script>
-    
-
+<script src="/script.js"></script>
 </body>
 
 </html>
