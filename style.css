@@ -170,6 +170,28 @@ footer {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
 }
 
+
+/* css for discord server invite */
+.discord-server-invite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: #7289da;
+    font-size: 70px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem;
+    transition: opacity 0.2s ease-in-out;
+    
+}
+.discord-server-invite a {
+    color: white;
+    text-decoration: none;
+  }
+  
+
+
 /* course 1 css*/
 /* course 2 css*/
 /* course 3 css*/
