@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Apply styles to your header, hero, and footer sections */
@@ -15,11 +16,6 @@ header {
     padding: 10px 20px;
 }
 
-.logo img {
-    max-height: 80px;
-}
-
-
 .hero {
     text-align: center;
     padding: 100px 0;
@@ -30,7 +26,11 @@ header {
 
 h1 {
     font-size: 36px;
-    margin-bottom: 20px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+#search-input, #search-button {
+    font-size: 16px;
 }
 
 .cta-button {
@@ -105,9 +105,17 @@ footer {
 
 #search-input {
     padding: 10px;
-    border: 1px solid #fff;
+    
     border-radius: 5px;
     margin-right: 10px;
+    outline: none;
+    border: none;
+    
+}
+
+#search-input:focus {
+    border: 2px solid #000000;
+    margin-right: 8px;
 }
 
 #search-button {
@@ -116,13 +124,13 @@ footer {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    border: 2px solid black ;
+    /* border: 2px solid black ; */
     border-radius: 5px;
     cursor: pointer;
 }
 
 #search-button:hover {
-    background-color: #00578b;
+    background-color: #0862df;
 }
 /* css for cards */
 /* Add hover styles for course cards */
