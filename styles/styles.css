@@ -104,27 +104,22 @@ footer {
 }
 
 #search-input {
-    padding: 10px;
-    
+    padding: 9px 10px;
     border-radius: 5px;
-    margin-right: 10px;
     outline: none;
     border: none;
-    
-}
-
-#search-input:focus {
-    border: 2px solid #000000;
-    margin-right: 8px;
+    border: 2px solid #012b67;  
+    border-right: 1.5px solid #012b67;  
 }
 
 #search-button {
-    padding: 10px 20px;
+    padding: 8.5px 10px;
     background-color: #0056D2;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    /* border: 2px solid black ; */
+    border: 2px solid #012b67;
+    border-left: 1.5px solid #012b67;
     border-radius: 5px;
     cursor: pointer;
 }
