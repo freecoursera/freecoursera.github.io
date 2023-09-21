@@ -17,4 +17,6 @@ Welcome to this Coursera clone. We're excited to have you as a contributor. Befo
 
 5. Create a Pull Request using one of our templates.
 
+6. Before raising pull requests always attach images of your contribution for review.
+
 Best of Luck!!
