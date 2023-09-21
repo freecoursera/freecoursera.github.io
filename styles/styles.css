@@ -17,11 +17,23 @@ header {
 }
 
 .hero {
-    text-align: center;
-    padding: 100px 0;
-    background-image: url('hero-image.jpg');
+    height: 65vh;
+    padding: 60px 40px;
     background-size: cover;
     color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    width: 60%;
+}
+
+.hero-img {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
