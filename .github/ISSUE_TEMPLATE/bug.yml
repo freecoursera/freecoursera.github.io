@@ -1,0 +1,21 @@
+name: 🪲 Bug Bounty Hunter
+description: Report a bug in Coursera clone and help improve the project!
+labels: ["🛠 goal: fix", "good first issue", "enhancement", "bug"]
+title: "[BUG 🐞] <description>"
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief description of the question or issue, also include what you tried and what didn't work
+      placeholder: Enter your description
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Screenshots to support replication of Bug
+      placeholder: Please attach screenshots if applicable
+    validations:
+      required: false  
