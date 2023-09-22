@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+body {
+  background: linear-gradient(rgb(125, 231, 230), rgb(25, 92, 131));
+  /* background-size: 6px 6px; */
+  background-color: #69cbff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+h1 {
+font-family: 'Roboto', sans-serif;
+margin: 5% 0 15%;
+color: rgb(35, 35, 35);
+}
+
+.sign-up-page {
+  height: 70%;
+  width: 30%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 2%;
+  position: relative;
+}
+
+.sign-in-input {
+  width: 100%;
+  padding: 2% 3%;
+  margin: 2% 0;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+#submit {
+  text-decoration: none;
+  background-color: rgb(91, 255, 255);
+  color: black;
+  padding: 5px 8px;
+  border: 2px solid rgb(42, 42, 42);
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  border-radius: 5px;
+  font-family: 'Comfortaa', cursive;
+}
+
+#submit:hover {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  transition: 100ms;
+}
+
+#submit:active {
+  border-right: 2px solid rgb(116, 115, 115);
+  border-bottom: 2px solid rgb(116, 115, 115);
+  border-left: 4px solid black;
+  border-top: 4px solid black;
+}
+
+.submit-div {
+  margin-top: 20px;
+  width: 100%;
+  text-align: right;
+}
+
+
+.back {
+  text-decoration: none;
+  background-color: rgb(91, 255, 255);
+  color: black;
+  padding: 2px 5px;
+  border: 2px solid rgb(42, 42, 42);
+  border-right: 4px solid black;
+  border-top: 4px solid black;
+  border-radius: 5px;
+  font-family: 'Comfortaa', cursive;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+.back:hover {
+  border-right: 5px solid black;
+  border-top: 5px solid black;
+  transition: 100ms;
+}
+
+.back:active {
+  border-right: 2px solid rgb(116, 115, 115);
+  border-top: 2px solid rgb(116, 115, 115);
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}

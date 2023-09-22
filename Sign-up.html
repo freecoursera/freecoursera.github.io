@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In to Coursera</title>
+
+  <link rel="stylesheet" href="./styles/sign-up.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto&family=Source+Sans+3&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="sign-up-page">
+    <h1>Sign In</h1>
+
+    <input type="text" placeholder="Your name" class="sign-in-input" id="name" required>
+    <input type="email" placeholder="Enter Email" class="sign-in-input" id="email" required>
+    <input type="password" name="password" placeholder="Enter Password" class="sign-in-input" id="password" required>
+    <div class="submit-div"><input onclick="javascript:setTimeout(()=>{window. location = 'profile.html' } ,500)" id="submit" type="submit" value="submit"></div>
+
+    <button class="back"><a onclick="javascript:setTimeout(()=>{window. location = 'index.html' } ,500)">Back</a></button>
+
+  </div>
+
+
+  <script src="./script.js"></script>
+</body>
+</html>
