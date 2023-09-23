@@ -41,6 +41,21 @@ h1 {
     font-family: 'Source Sans 3', sans-serif;
 }
 
+.explore-button{
+    color: white;
+    border: 2px solid white;
+    font-weight: 300;
+    border-radius: 5px;
+    background-color: #0056D2;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.explore-button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
 #search-input, #search-button {
     font-size: 16px;
 }
