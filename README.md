@@ -1,6 +1,6 @@
 # COURSERA
 
-This is a COURSERA CLONE Website.
+This is a [COURSERA CLONE Website](https://freecoursera.github.io/).
 
 # IMPORTANT
 
@@ -8,7 +8,7 @@ Find internet links for particular courses in  to take idea how to design.
  
 ## Future Enhancements
 
-I'll open issues, contribute to them.
+I'll open issues, contribute to them [Issues](https://github.com/freecoursera/freecoursera.github.io/issues).
 
 ## Contributions
 
