@@ -86,6 +86,10 @@ footer {
     text-align: left;
 }
 
+.foot-panel1 ul a:hover{
+    text-decoration: underline;
+}
+
 .foot-panel1 ul p{
     font-weight: bold;
     text-align: left;
