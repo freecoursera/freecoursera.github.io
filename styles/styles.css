@@ -37,6 +37,11 @@ header {
     justify-content: center;
 }
 
+.logo h1 a{
+    text-decoration: none;
+    color: white;
+}
+
 h1 {
     font-size: 36px;
     font-family: 'Source Sans 3', sans-serif;
@@ -57,11 +62,51 @@ h1 {
 }
 
 footer {
-    background-color: #f3f3f3;
+    background-color: #f5f5f5;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 0 ;
+    padding-top:40px ;
 }
 
+.foot-panel1{
+    display: flex;
+    background-color: #f5f5f5;
+    color: rgb(0, 0, 0);
+    justify-content: space-evenly;
+    padding-bottom:60px;
+}
+
+
+.foot-panel1 ul a{
+    text-decoration: none;
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 5px;
+    color: #000000;
+    text-align: left;
+}
+
+.foot-panel1 ul p{
+    font-weight: bold;
+    text-align: left;
+}
+
+.mobile-app-link a{
+    padding: 0.5rem;
+}
+
+.foot-panel2{
+    display: flex;
+    justify-content:space-between;
+    margin: 20px 60px;
+    align-items: center;
+}
+
+.footer-social-icons a{
+    font-size: xx-large;
+    color: black;
+    margin-right: 1rem;
+}
 
 /* cards */
 /* Add styles for course cards */
