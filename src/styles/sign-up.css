@@ -1,13 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Source Sans 3', sans-serif;
-}
-
-body {
-  background: linear-gradient(rgb(125, 231, 230), rgb(25, 92, 131));
-  /* background-size: 6px 6px; */
+/* 
   background-color: #69cbff;
   display: flex;
   justify-content: center;
@@ -99,4 +90,4 @@ color: rgb(35, 35, 35);
   border-top: 2px solid rgb(116, 115, 115);
   border-left: 2px solid black;
   border-bottom: 2px solid black;
-}
+} */
