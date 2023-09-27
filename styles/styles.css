@@ -7,6 +7,22 @@
     font-family: 'Source Sans 3', sans-serif;
 }
 
+/* Scrollbar css */
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1f4b8a;
+  }
+
 /* Apply styles to your header, hero, and footer sections */
 header {
     background-color: #0056D2;
