@@ -23,8 +23,14 @@
       <p id="password">Your Password:</p>
     </div>
 
-    <button class="back"><a onclick="javascript:setTimeout(()=>{window. location = 'index.html' } ,500)">Back</a></button>
+    <button class="back"><a onclick="goBack()">Back</a></button>
 
+    <script>
+      function goBack() {
+        // Using history object to navigate back one step in the history stack
+        window.history.back();
+      }
+    </script>
   </div>
   
   
