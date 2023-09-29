@@ -1,0 +1,240 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1, h2 {
+    color: #0077b6;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.course-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.course-details {
+    display: flex;
+    justify-content: space-between; /* Align left and right sections */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.course-details h1 {
+    margin-top: 0;
+}
+
+.course-details-left {
+    flex: 1; /* Take up the left half of the container */
+}
+
+.course-details-right {
+    flex: 1; /* Take up the right half of the container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.course-details-right img {
+    max-width: 100%;
+}
+
+.course-details-text h1 {
+    margin-top: 10px;
+}
+
+.course-details-text p {
+    font-size: 14px;
+}
+
+.topics {
+    margin-left: 20px;
+}
+
+.enroll-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.enroll-button:hover {
+    background-color: #0056b3;
+}
+
+
+.course-timeline {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid;
+}
+
+.course-timeline h1 {
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.timeline {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent cards from wrapping to the next row */
+    overflow-x: auto; /* Add horizontal scrolling if the cards overflow the container */
+    padding: 20px 0;
+}
+
+.timeline-item {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-right: 20px;
+    width: calc(25% - 20px); /* Set card width to one-fourth of the container minus margin */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.timeline-item:last-child {
+    margin-right: 0; /* Remove margin for the last card in the row */
+}
+
+.timeline-content h2 {
+    font-size: 18px;
+}
+
+.timeline-content p {
+    font-size: 14px;
+}
+
+
+.course-instructors {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid;
+}
+
+.course-instructors h1 {
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.course-instructors-cards {
+    display: flex; /* Display as a flex container */
+    justify-content: space-between; /* Distribute cards evenly across the row */
+}
+
+.course-instructor-card {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(30% - 20px); /* Set card width to approximately one-third of the container minus margin */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.course-instructor-card img {
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.course-reviews {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid;
+}
+
+.course-reviews h1 {
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.course-reviews-cards {
+    display: flex; /* Display as a flex container */
+    justify-content: space-between; /* Distribute cards evenly across the row */
+}
+
+.course-review-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(30% - 20px); /* Set card width to approximately one-third of the container minus margin */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.course-review-card img {
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+
+.course-faq {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid;
+}
+
+.course-faq h1 {
+    margin-top: 0;
+}
+
+.course-faq-card {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.course-enrollment {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 2px solid #0077b6;
+}
+
+.course-enrollment h1 {
+    margin-top: 0;
+}
