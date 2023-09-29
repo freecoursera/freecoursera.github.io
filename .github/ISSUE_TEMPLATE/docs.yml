@@ -1,12 +1,19 @@
 name: 📄 Documentation issue
 description: Found an issue in the documentation? You can use this one!
 title: "[DOCS 📄] <description>"
-labels: ["📄 aspect: text", "good first issue", "🤩 Up for the grab"]
+labels: ["📄 aspect: text"]
 body:
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: A brief description of the question or issue.
+      description: Describe the issue in documentation.
+    validations:
+      required: true
+  - type: textarea
+    id: extrainfo
+    attributes:
+      label: Wanna Work upon[y/n] ??
+      description: If you want to work on this just say yes or else no. We will assign to someone else.
     validations:
       required: true

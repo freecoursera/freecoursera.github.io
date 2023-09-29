@@ -1,18 +1,25 @@
 # COURSERA
 
-This is a [COURSERA CLONE Website](https://freecoursera.github.io/).
+This is a replica of [COURSERA](https://freecoursera.github.io/), a educational website.
 
-# IMPORTANT
+A preview of the website is available [here](freecoursera.github.io/) 
 
-Find internet links for particular courses in  to take idea how to design.
- 
+# This Project is currely built with:
+- HTML
+- CSS 
+- JavaScript
+- React
+- Wanna add to this list. Start [contributing](https://github.com/freecoursera/freecoursera.github.io/blob/main/.github/CONTRIBUTING.md).
+
 ## Future Enhancements
 
-I'll open issues, contribute to them [Issues](https://github.com/freecoursera/freecoursera.github.io/issues).
+- There are tons of things this project needs help with, We are planning to add backend and improve the frontend section.
+
+- Contributions would be hugely appreciated.
 
 ## Contributions
 
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please feel free to open an issue or submit a pull request. Read the [Contribution.md](https://github.com/freecoursera/freecoursera.github.io/blob/main/.github/CONTRIBUTING.md)
+Contributors are welcome! If you have any suggestions, bug reports, or feature requests, please feel free to open an issue or submit a pull request. Read [Contribution.md](https://github.com/freecoursera/freecoursera.github.io/blob/main/.github/CONTRIBUTING.md) for guidance.
 
 ## License
 
