@@ -31,6 +31,9 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    /* added new style in styles.css to fix the navbar */
+    position: fixed;
+    width: 100vw;
 }
 
 .hero {
