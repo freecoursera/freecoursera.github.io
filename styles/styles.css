@@ -33,6 +33,9 @@ header {
     padding: 10px 20px;
     /* added new style in styles.css to fix the navbar */
     position: fixed;
+    top:0;
+    left:0;
+    z-index: 0;
     width: 100vw;
 }
 
