@@ -1,0 +1,523 @@
+[
+  {
+    "title":"Digital Marketing Fundamentals explained",
+    "description" : "This course provides a comprehensive introduction to digital marketing, covering topics such as social media marketing, email marketing, and search engine optimization. Whether you are a beginner or have some experience with digital marketing, this course will equip you with the skills you need to excel in the field of digital marketing.",
+    "topics": [
+      "Introduction to digital marketing",
+      "Social media marketing",
+      "Email marketing",
+      "Search engine optimization"
+    ],
+    "imgSource":"../src/images/digital-marketing.jpg",
+    "enrollmentSubMessage":"Learn the fundamentals of digital marketing with our comprehensive course",
+    "enrollmentLink":"#",
+    "timeline": [
+      {
+        "date": "Week 1",
+        "title": "Introduction to Digital Marketing",
+        "description": "Learn the basics of digital marketing and its importance in today's business world."
+      },
+      {
+        "date": "Week 2",
+        "title": "Search Engine Optimization (SEO)",
+        "description": "Get started with SEO and learn how to optimize your website for search engines."
+      },
+      {
+        "date": "Week 3",
+        "title": "Pay-Per-Click (PPC) Advertising",
+        "description": "Learn how to create and manage effective PPC campaigns on platforms such as Google Ads and Facebook Ads."
+      },
+      {
+        "date": "Week 4",
+        "title": "Social Media Marketing",
+        "description": "Explore the basics of social media marketing and learn how to create engaging content for different social media platforms."
+      },
+      {
+        "date": "Week 5",
+        "title": "Email Marketing",
+        "description": "Learn how to create effective email marketing campaigns and build your email list."
+      },
+      {
+        "date": "Week 6",
+        "title": "Project 1",
+        "description": "Apply your skills to a real-world digital marketing project."
+      },
+      {
+        "date": "Week 7",
+        "title": "Advanced Topics in Digital Marketing",
+        "description": "Explore advanced topics such as marketing automation and conversion rate optimization."
+      },
+      {
+        "date": "Week 8",
+        "title": "Analytics and Reporting",
+        "description": "Learn how to use analytics tools to measure the effectiveness of your digital marketing campaigns and report on your results."
+      },
+      {
+        "date": "Week 9",
+        "title": "Project 2",
+        "description": "Apply your skills to a more complex digital marketing project."
+      },
+      {
+        "date": "Week 10",
+        "title": "Ethics and Responsibility in Digital Marketing",
+        "description": "Explore the ethical and social responsibility implications of digital marketing."
+      },
+      {
+        "date": "Week 11",
+        "title": "Career Development in Digital Marketing",
+        "description": "Learn about career opportunities in digital marketing and how to prepare for them."
+      },
+      {
+        "date": "Week 12",
+        "title": "Final Project",
+        "description": "Apply all of your skills to a final digital marketing project."
+      }
+    ],
+    "instructors":[
+      {
+        "imgSource": "../src/images/instructor1.png",
+        "imgAlt": "Instructor 1",
+        "name": "John Doe",
+        "description": "John Doe is a data scientist with 10 years of experience in the field. He has worked with companies such as Google and Facebook."
+      },
+      {
+        "imgSource": "../src/images/instructor2.png",
+        "imgAlt": "Instructor 2",
+        "name": "Jane Doe",
+        "description": "Jane Doe is a data scientist with 10 years of experience in the field. He has worked with companies such as Google and Facebook."
+      },
+      {
+        "imgSource": "../src/images/instructor3.png",
+        "imgAlt": "Instructor 3",
+        "name": "John Smith",
+        "description": "John Smith is a data scientist with 10 years of experience in the field. He has worked with companies such as Google and Facebook."
+      }
+    ],
+    "reviews":[
+      {
+        "imgSource": "../src/images/student1.png",
+        "imgAlt": "Reviewer 1",
+        "name": "John Doe",
+        "review": "John Doe is a data scientist with 10 years of experience in the field. He has worked with companies such as Google and Facebook."
+      },
+      {
+        "imgSource": "../src/images/student2.png",
+        "imgAlt": "Reviewer 2",
+        "name": "Jane Doe",
+        "review": "Jane Doe is a data scientist with 10 years of experience in the field. He has worked with companies such as Google and Facebook."
+      },
+      {
+        "imgSource": "../src/images/student3.png",
+        "imgAlt": "Reviewer 3",
+        "name": "John Smith",
+        "review": "John Smith is a data scientist with 10 years of experience in the field. He has worked with companies such as Google and Facebook."
+      }
+    ],
+    "faq":[
+      {
+        "question": "What is data science?",
+        "answer": "Data science is the study of data. It involves analyzing data to find patterns and trends, and using those patterns and trends to make predictions about the future."
+      },
+      {
+        "question": "What is machine learning?",
+        "answer": "Machine learning is a subset of artificial intelligence that focuses on algorithms that can learn from data and make predictions."
+      },
+      {
+        "question": "Is this course suitable for beginners?",
+        "answer": "Yes, this course is designed for both beginners and those with some experience in data science."
+      }
+    ],
+    "enrollmentMainMessage":"Enroll in this course to learn the fundamentals of data science."
+  },
+  {
+    "title": "Data Science for Everybody, Everywhere",
+    "description": "This course provides a comprehensive introduction to data science, covering topics such as data analysis, machine learning, and data visualization. Whether you are a beginner or have some experience with data, this course will equip you with the skills you need to excel in the field of data science.",
+    "topics": [
+      "Introduction to data science",
+      "Python for data science",
+      "Data analysis",
+      "Machine learning",
+      "Data visualization"
+    ],
+    "imgSource": "../src/images/data-science.png",
+    "enrollmentSubMessage": "Learn the fundamentals of data science with our comprehensive course",
+    "enrollmentLink": "#",
+    "timeline": [
+      {
+        "date": "Week 1",
+        "title": "Introduction to Data Science",
+        "description": "Learn the basics of data science and its applications in various fields."
+      },
+      {
+        "date": "Week 2",
+        "title": "Python for Data Science",
+        "description": "Get started with Python and learn how to use it for data analysis and visualization."
+      },
+      {
+        "date": "Week 3",
+        "title": "Data Analysis",
+        "description": "Learn how to analyze data using statistical methods and tools."
+      },
+      {
+        "date": "Week 4",
+        "title": "Machine Learning",
+        "description": "Explore the basics of machine learning and learn how to build predictive models."
+      },
+      {
+        "date": "Week 5",
+        "title": "Data Visualization",
+        "description": "Learn how to create effective visualizations to communicate your data insights."
+      },
+      {
+        "date": "Week 6",
+        "title": "Project 1",
+        "description": "Apply your skills to a real-world data science project."
+      },
+      {
+        "date": "Week 7",
+        "title": "Advanced Topics in Data Science",
+        "description": "Explore advanced topics such as deep learning and natural language processing."
+      },
+      {
+        "date": "Week 8",
+        "title": "Big Data and Cloud Computing",
+        "description": "Learn how to work with big data and cloud computing platforms such as AWS and Azure."
+      },
+      {
+        "date": "Week 9",
+        "title": "Project 2",
+        "description": "Apply your skills to a more complex data science project."
+      },
+      {
+        "date": "Week 10",
+        "title": "Ethics and Privacy in Data Science",
+        "description": "Explore the ethical and privacy implications of data science."
+      },
+      {
+        "date": "Week 11",
+        "title": "Career Development in Data Science",
+        "description": "Learn about career opportunities in data science and how to prepare for them."
+      },
+      {
+        "date": "Week 12",
+        "title": "Final Project",
+        "description": "Apply all of your skills to a final data science project."
+      }
+    ],
+    "instructors": [
+      {
+        "imgSource": "../src/images/instructor1.png",
+        "imgAlt": "Instructor 1",
+        "name": "John Doe",
+        "description": "John Doe is a data scientist with 10 years of experience in the field. He has worked with companies such as Google and Facebook."
+      },
+      {
+        "imgSource": "../src/images/instructor2.png",
+        "imgAlt": "Instructor 2",
+        "name": "Jane Doe",
+        "description": "Jane Doe is a data scientist with 10 years of experience in the field. She has worked with companies such as Google and Facebook."
+      },
+      {
+        "imgSource": "../src/images/instructor3.png",
+        "imgAlt": "Instructor 3",
+        "name": "John Smith",
+        "description": "John Smith is a data scientist with 10 years of experience in the field. He has worked with companies such as Google and Facebook."
+      }
+    ],
+    "reviews": [
+      {
+        "imgSource": "../src/images/student1.png",
+        "imgAlt": "Reviewer 1",
+        "name": "John Doe",
+        "review": "John Doe is a data scientist with 10 years of experience in the field. He has worked with companies such as Google and Facebook."
+      },
+      {
+        "imgSource": "../src/images/student2.png",
+        "imgAlt": "Reviewer 2",
+        "name": "Jane Doe",
+        "review": "Jane Doe is a data scientist with 10 years of experience in the field. She has worked with companies such as Google and Facebook."
+      },
+      {
+        "imgSource": "../src/images/student3.png",
+        "imgAlt": "Reviewer 3",
+        "name": "John Smith",
+        "review": "John Smith is a data scientist with 10 years of experience in the field. He has worked with companies such as Google and Facebook."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is data science?",
+        "answer": "Data science is the study of data. It involves analyzing data to find patterns and trends, and using those patterns and trends to make predictions about the future."
+      },
+      {
+        "question": "What is machine learning?",
+        "answer": "Machine learning is a subset of artificial intelligence that focuses on algorithms that can learn from data and make predictions."
+      },
+      {
+        "question": "Is this course suitable for beginners?",
+        "answer": "Yes, this course is designed for both beginners and those with some experience in data science."
+      }
+    ],
+    "enrollmentMainMessage": "Enroll in this course to learn the fundamentals of data science."
+  },
+  {
+    "title": "Machine Learning and Artificial Intelligence",
+    "description": "This course provides a comprehensive introduction to artificial intelligence and machine learning, covering topics such as neural networks, deep learning, and natural language processing. Whether you are a beginner or have some experience with AI and ML, this course will equip you with the skills you need to excel in the field of AI and ML.",
+    "topics": [
+      "Introduction to artificial intelligence and machine learning",
+      "Neural networks",
+      "Deep learning",
+      "Natural language processing"
+    ],
+    "imgSource": "../src/images/ML-and-AI.png",
+    "enrollmentSubMessage": "Learn the fundamentals of artificial intelligence and machine learning with our comprehensive course",
+    "enrollmentLink": "#",
+    "timeline": [
+      {
+        "date": "Week 1",
+        "title": "Introduction to AI and ML",
+        "description": "Learn the basics of artificial intelligence and machine learning and their applications in various fields."
+      },
+      {
+        "date": "Week 2",
+        "title": "Python for AI and ML",
+        "description": "Get started with Python and learn how to use it for AI and ML applications."
+      },
+      {
+        "date": "Week 3",
+        "title": "Neural Networks",
+        "description": "Learn how to build and train neural networks for various AI and ML tasks."
+      },
+      {
+        "date": "Week 4",
+        "title": "Deep Learning",
+        "description": "Explore the basics of deep learning and learn how to build deep neural networks for complex AI and ML tasks."
+      },
+      {
+        "date": "Week 5",
+        "title": "Natural Language Processing",
+        "description": "Learn how to process and analyze natural language data using AI and ML techniques."
+      },
+      {
+        "date": "Week 6",
+        "title": "Project 1",
+        "description": "Apply your skills to a real-world AI and ML project."
+      },
+      {
+        "date": "Week 7",
+        "title": "Advanced Topics in AI and ML",
+        "description": "Explore advanced topics such as reinforcement learning and generative models."
+      },
+      {
+        "date": "Week 8",
+        "title": "Big Data and Cloud Computing for AI and ML",
+        "description": "Learn how to work with big data and cloud computing platforms such as AWS and Azure for AI and ML applications."
+      },
+      {
+        "date": "Week 9",
+        "title": "Project 2",
+        "description": "Apply your skills to a more complex AI and ML project."
+      },
+      {
+        "date": "Week 10",
+        "title": "Ethics and Privacy in AI and ML",
+        "description": "Explore the ethical and privacy implications of AI and ML applications."
+      },
+      {
+        "date": "Week 11",
+        "title": "Career Development in AI and ML",
+        "description": "Learn about career opportunities in AI and ML and how to prepare for them."
+      },
+      {
+        "date": "Week 12",
+        "title": "Final Project",
+        "description": "Apply all of your skills to a final AI and ML project."
+      }
+    ],
+    "instructors": [
+      {
+        "imgSource": "../src/images/instructor1.png",
+        "imgAlt": "Instructor 1",
+        "name": "John Doe",
+        "description": "John Doe is a data scientist with 10 years of experience in the field. He has worked with companies such as Google and Facebook."
+      },
+      {
+        "imgSource": "../src/images/instructor2.png",
+        "imgAlt": "Instructor 2",
+        "name": "Jane Doe",
+        "description": "Jane Doe is a data scientist with 10 years of experience in the field. She has worked with companies such as Google and Facebook."
+      },
+      {
+        "imgSource": "../src/images/instructor3.png",
+        "imgAlt": "Instructor 3",
+        "name": "John Smith",
+        "description": "John Smith is a data scientist with 10 years of experience in the field. He has worked with companies such as Google and Facebook."
+      }
+    ],
+    "reviews": [
+      {
+        "imgSource": "../src/images/student1.png",
+        "imgAlt": "Reviewer 1",
+        "name": "John Doe",
+        "review": "John Doe is a data scientist with 10 years of experience in the field. He has worked with companies such as Google and Facebook."
+      },
+      {
+        "imgSource": "../src/images/student2.png",
+        "imgAlt": "Reviewer 2",
+        "name": "Jane Doe",
+        "review": "Jane Doe is a data scientist with 10 years of experience in the field. She has worked with companies such as Google and Facebook."
+      },
+      {
+        "imgSource": "../src/images/student3.png",
+        "imgAlt": "Reviewer 3",
+        "name": "John Smith",
+        "review": "John Smith is a data scientist with 10 years of experience in the field. He has worked with companies such as Google and Facebook."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is data science?",
+        "answer": "Data science is the study of data. It involves analyzing data to find patterns and trends, and using those patterns and trends to make predictions about the future."
+      },
+      {
+        "question": "What is machine learning?",
+        "answer": "Machine learning is a subset of artificial intelligence that focuses on algorithms that can learn from data and make predictions."
+      },
+      {
+        "question": "Is this course suitable for beginners?",
+        "answer": "Yes, this course is designed for both beginners and those with some experience in data science."
+      }
+    ],
+    "enrollmentMainMessage": "Enroll in this course to learn the fundamentals of artificial intelligence and machine learning."
+  },
+  {
+    "title": "Financial Planning for a Secure Retirement",
+    "description": "This course provides a comprehensive introduction to financial independence for retirement planning, covering topics such as investment strategies, retirement accounts, and budgeting. Whether you are a beginner or have some experience with personal finance, this course will equip you with the skills you need to achieve financial independence and retire comfortably.",
+    "topics": [
+      "Introduction to financial independence for retirement planning",
+      "Investment strategies",
+      "Retirement accounts",
+      "Budgeting"
+    ],
+    "imgSource": "../src/images/retirement-planning.jpg",
+    "enrollmentSubMessage": "Learn the fundamentals of financial independence for retirement planning with our comprehensive course",
+    "enrollmentLink": "#",
+    "timeline": [
+      {
+        "date": "Week 1",
+        "title": "Introduction to Personal Finance",
+        "description": "Learn the basics of personal finance and its importance in achieving financial independence for retirement."
+      },
+      {
+        "date": "Week 2",
+        "title": "Retirement Planning",
+        "description": "Get started with retirement planning and learn how to set financial goals and create a retirement plan."
+      },
+      {
+        "date": "Week 3",
+        "title": "Investment Strategies",
+        "description": "Learn about different investment strategies and how to choose the right investments for your retirement portfolio."
+      },
+      {
+        "date": "Week 4",
+        "title": "Retirement Accounts",
+        "description": "Explore different types of retirement accounts and learn how to choose the right one for your retirement savings."
+      },
+      {
+        "date": "Week 5",
+        "title": "Debt Management",
+        "description": "Learn how to manage debt and improve your credit score to achieve financial independence."
+      },
+      {
+        "date": "Week 6",
+        "title": "Project 1",
+        "description": "Apply your skills to a real-world retirement planning project."
+      },
+      {
+        "date": "Week 7",
+        "title": "Advanced Topics in Personal Finance",
+        "description": "Explore advanced topics such as tax planning and estate planning."
+      },
+      {
+        "date": "Week 8",
+        "title": "Big Data and Analytics for Personal Finance",
+        "description": "Learn how to use big data and analytics to make informed financial decisions."
+      },
+      {
+        "date": "Week 9",
+        "title": "Project 2",
+        "description": "Apply your skills to a more complex retirement planning project."
+      },
+      {
+        "date": "Week 10",
+        "title": "Ethics and Responsibility in Personal Finance",
+        "description": "Explore the ethical and social responsibility implications of personal finance decisions."
+      },
+      {
+        "date": "Week 11",
+        "title": "Career Development in Personal Finance",
+        "description": "Learn about career opportunities in personal finance and how to prepare for them."
+      },
+      {
+        "date": "Week 12",
+        "title": "Final Project",
+        "description": "Apply all of your skills to a final retirement planning project."
+      }
+    ],
+    "instructors": [
+      {
+        "imgSource": "../src/images/instructor1.png",
+        "imgAlt": "Instructor 1",
+        "name": "John Doe",
+        "description": "John Doe is a data scientist with 10 years of experience in the field. He has worked with companies such as Google and Facebook."
+      },
+      {
+        "imgSource": "../src/images/instructor2.png",
+        "imgAlt": "Instructor 2",
+        "name": "Jane Doe",
+        "description": "Jane Doe is a data scientist with 10 years of experience in the field. She has worked with companies such as Google and Facebook."
+      },
+      {
+        "imgSource": "../src/images/instructor3.png",
+        "imgAlt": "Instructor 3",
+        "name": "John Smith",
+        "description": "John Smith is a data scientist with 10 years of experience in the field. He has worked with companies such as Google and Facebook."
+      }
+    ],
+    "reviews": [
+      {
+        "imgSource": "../src/images/student1.png",
+        "imgAlt": "Reviewer 1",
+        "name": "John Doe",
+        "review": "John Doe is a data scientist with 10 years of experience in the field. He has worked with companies such as Google and Facebook."
+      },
+      {
+        "imgSource": "../src/images/student2.png",
+        "imgAlt": "Reviewer 2",
+        "name": "Jane Doe",
+        "review": "Jane Doe is a data scientist with 10 years of experience in the field. She has worked with companies such as Google and Facebook."
+      },
+      {
+        "imgSource": "../src/images/student3.png",
+        "imgAlt": "Reviewer 3",
+        "name": "John Smith",
+        "review": "John Smith is a data scientist with 10 years of experience in the field. He has worked with companies such as Google and Facebook."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is data science?",
+        "answer": "Data science is the study of data. It involves analyzing data to find patterns and trends, and using those patterns and trends to make predictions about the future."
+      },
+      {
+        "question": "What is machine learning?",
+        "answer": "Machine learning is a subset of artificial intelligence that focuses on algorithms that can learn from data and make predictions."
+      },
+      {
+        "question": "Is this course suitable for beginners?",
+        "answer": "Yes, this course is designed for both beginners and those with some experience in personal finance."
+      }
+    ],
+    "enrollmentMainMessage": "Enroll in this course to learn the fundamentals of financial independence for retirement planning."
+  }  
+]
