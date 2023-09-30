@@ -92,10 +92,10 @@ h1, h2 {
 }
 
 .timeline {
-    display: flex;
-    flex-wrap: nowrap; /* Prevent cards from wrapping to the next row */
-    overflow-x: auto; /* Add horizontal scrolling if the cards overflow the container */
-    padding: 20px 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    row-gap: 40px;
 }
 
 .timeline-item {
@@ -103,8 +103,6 @@ h1, h2 {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    margin-right: 20px;
-    width: calc(25% - 20px); /* Set card width to one-fourth of the container minus margin */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -159,6 +157,8 @@ h1, h2 {
 
 .course-instructor-card img {
     max-width: 100%;
+    height: 202px;
+    width: 202px;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
