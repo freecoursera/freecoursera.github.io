@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Profile Details</title>
 
-  <link rel="stylesheet" href="./profile.css">
+  <link rel="stylesheet" href="../styles/profile.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
   <div class="profile">
     <!-- <input type="file" name="" id=""> -->
     <div class="profile-left-div">
-      <img src="./src/images/profile.png" class="profile-img">
+      <img src="../src/images/profile.png" class="profile-img">
     </div>
     <div class="profile-right-div">
       <p id="name">Your Name:</p>
@@ -23,19 +23,9 @@
       <p id="password">Your Password:</p>
     </div>
 
-    <button class="back"><a onclick="goBack()">Back</a></button>
-
-    <script>
-      function goBack() {
-        // Using history object to navigate back one step in the history stack
-        window.history.back();
-      }
-    </script>
+    <a href="javascript:setTimeout(()=>{window. location = '/' },500);"><button class="back">Back</button></a>
   </div>
   
-  
-  
-
-  <script src="./profile.js"></script>
+  <script src="../script/profile.js"></script>
 </body>
 </html>
