@@ -56,8 +56,10 @@
     right: 15px;
     cursor: pointer;
     color: rgb(206, 206, 206);
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
-
 
 /* Apply styles to your header, hero, and footer sections */
 header {
