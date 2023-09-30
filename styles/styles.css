@@ -321,3 +321,8 @@ img.profile-button:hover {
     color: white;
     text-decoration: none;
   }
+
+.mobile-app-link img {
+    width: 40px; 
+    height: auto; 
+}
