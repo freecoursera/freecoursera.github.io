@@ -51,6 +51,7 @@ color: rgb(35, 35, 35);
   border-bottom: 4px solid black;
   border-radius: 5px;
   font-family: 'Comfortaa', cursive;
+  cursor: pointer;
 }
 
 #submit:hover {
@@ -86,6 +87,7 @@ color: rgb(35, 35, 35);
   position: absolute;
   top: 0%;
   right: 0%;
+  cursor: pointer;
 }
 
 .back:hover {
