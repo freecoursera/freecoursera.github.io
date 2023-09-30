@@ -1,4 +1,4 @@
-# COURSERA
+# COURSERA CLONE
 
 This is a replica of [COURSERA](https://freecoursera.github.io/), a educational website.
 
