@@ -1,13 +1,8 @@
-## Issue <issue number> 🎯🎯
-
-<!-- Please Don't remove brackets just add content inside them. -->
-- I [your name](your github profile link) have worked upon #<issue number>
+<!-- Type '#' then issue number related to PR in . Else type 'No issue to be closed'  -->
+## Issue <> 🎯🎯
 
 ## Description
-<!-- Add as much as context possible. Don't worry this won't be included in PR  -->
-
-
-
+<!-- Please Describe the changes you have made to the project. Don't worry this won't be included in PR  -->
 
 ## Screenshots 📷
 <!-- add screenshots here 👇👇 -->
