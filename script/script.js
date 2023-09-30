@@ -1,4 +1,4 @@
-profileDetails = {};
+const profileDetails = {};
 
 document.querySelector(".submit-div").addEventListener('click', (event) => {
   event.preventDefault()
