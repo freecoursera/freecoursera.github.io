@@ -25,7 +25,7 @@ const SignUp = () => {
   return (
     <div>
       <div class="sign-up-page">
-        <h1>Sign In</h1>
+        <h1>Sign Up</h1>
         <form onSubmit={handleSubmit}>
           <input
             ref={name}

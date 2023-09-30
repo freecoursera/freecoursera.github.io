@@ -35,7 +35,7 @@ const Home = () => {
             Learn fundamentals of data science, from data analysis to machine
             learning, gain insights to make data-driven decisions.
           </p>
-          <Link to="./DataScience_course.html" className="learn-more-button">
+          <Link to="data_science_course" className="learn-more-button">
             Learn More
           </Link>
         </div>
@@ -47,7 +47,7 @@ const Home = () => {
             media, and boost your online presence to reach a wider audience.
           </p>
           <Link
-            to="./Digital_Marketing_course.html"
+            to="digital_marketing_course"
             className="learn-more-button"
           >
             Learn More
@@ -60,7 +60,7 @@ const Home = () => {
             Dive into the world of AI and machine learning, explore cutting-edge
             algorithms, and create intelligent applications.
           </p>
-          <Link to="./AI-ML_course.html" className="learn-more-button">
+          <Link to="ai_ml_course" className="learn-more-button">
             Learn More
           </Link>
         </div>
@@ -71,7 +71,7 @@ const Home = () => {
             Plan your financial future with confidence by understanding
             retirement strategies, investments, and wealth management.
           </p>
-          <Link to="./Financial_course.html" className="learn-more-button">
+          <Link to="financial_course" className="learn-more-button">
             Learn More
           </Link>
         </div>
