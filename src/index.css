@@ -76,14 +76,14 @@ body {
 }
 
 .hidden {
-display: none;
+  display: none;
   /* position: absolute;
   right: 15px;
   cursor: pointer;
   color: rgb(206, 206, 206); */
 }
-.hide-button{
-    position: absolute;
+.hide-button {
+  position: absolute;
   right: 15px;
   cursor: pointer;
   color: rgb(206, 206, 206);
@@ -567,19 +567,6 @@ h2 {
   margin-left: 20px;
 }
 
-.enroll-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 10px;
-}
-
-.enroll-button:hover {
-  background-color: #0056b3;
-}
 /*--------------------------------------------
 ----------- Course Timeline Starts ---------*/
 /*--------------------------------------------
@@ -762,6 +749,21 @@ h2 {
 /*------------------------ FAQs CSS Ends----------------
 -------------------------------------------------------- */
 
+/* -----------------------------------------------------
+-------------- Course Enrollment Starts ---------------- */
+.enroll-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.enroll-button:hover {
+  background-color: #0056b3;
+}
 .course-enrollment {
   background-color: #fff;
   border-radius: 10px;
@@ -773,5 +775,7 @@ h2 {
 }
 
 .course-enrollment h1 {
-  margin-top: 0;
+  margin: 0;
 }
+/* --------------Course Enrollment Ends -------------
+----------------------------------------------------- */

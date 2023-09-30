@@ -4,6 +4,7 @@ import CourseReview from "../../components/CourseReview";
 import FAQ from "../../components/FAQ";
 import CourseInstructor from "../../components/CourseInstructor";
 import CourseTimeline from "../../components/CourseTimeline";
+import EnrollNow from "../../components/EnrollNow";
 const DataScience_course = () => {
   return (
     <>
@@ -44,6 +45,7 @@ const DataScience_course = () => {
         <CourseInstructor />
         <CourseReview />
         <FAQ />
+        <EnrollNow/>
       </div>
     </>
   );
