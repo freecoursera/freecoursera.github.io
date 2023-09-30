@@ -2,7 +2,7 @@
 
 This is a replica of [COURSERA](https://freecoursera.github.io/), a educational website.
 
-A preview of the website is available [here](freecoursera.github.io/) 
+A preview of the website is available [here](https://freecoursera.github.io/) 
 
 # This Project is currely built with:
 - HTML
