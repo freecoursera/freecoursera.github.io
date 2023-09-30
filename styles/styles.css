@@ -5,6 +5,7 @@
     box-sizing: border-box;
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Source Sans 3', sans-serif;
+    overflow-x: hidden;
 }
 
 /* Scrollbar css */
@@ -23,6 +24,43 @@
     background: #1f4b8a;
   }
 
+.contribution-request {
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.contribution-request > p {
+    display: inline;
+}
+
+.contribution-request > a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 250ms;
+    text-decoration: underline rgb(134, 134, 134);
+
+}
+
+.contribution-request > a:hover {
+    text-decoration: none;
+    color: #84d0ff;
+    transition: 250ms;
+    text-decoration: underline white;   
+}
+
+.hide {
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    color: rgb(206, 206, 206);
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
 /* Apply styles to your header, hero, and footer sections */
 header {
     background-color: #0056D2;
@@ -31,8 +69,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    /* added new style in styles.css to fix the navbar */
-    /* position: fixed; */
     width: 100vw;
 }
 
@@ -300,21 +336,3 @@ img.profile-button:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
 }
 
-/* css for discord server invite */
-.discord-server-invite{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
-    background-color: #7289da;
-    font-size: 70px;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 1rem;
-    transition: opacity 0.2s ease-in-out;
-    
-}
-.discord-server-invite a {
-    color: white;
-    text-decoration: none;
-  }

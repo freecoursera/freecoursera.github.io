@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coursera Clone</title>
     <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="shortcut icon" href="./src/images/mortarboard.png" type="image/x-icon">
+    <link rel="shortcut icon" href="src/images/mortarboard.png" type="image/x-icon">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,6 +18,13 @@
 </head>
 
 <body>
+    <div class="contribution-request">
+        <p>🎉🎉This project is part of HacktoberFest 2023. Wanna Contribute?🎉🎉 Join Our </p>
+        <a href="https://discord.gg/kR573YBTAU">Discord</a>
+        <p> and </p>
+        <a href="https://github.com/freecoursera/freecoursera.github.io">GitHub</a>
+        <img class="hide" onclick="deleteContributionRequest()" src="./src/images/cancel-icon.png" height="16px">
+    </div>
     <header>
         <div class="logo">
             <h1><a href="/">coursera</a></h1>
@@ -40,8 +47,7 @@
 
         </div>
         <div id="question-div">
-            <!-- <a href="./Sign-up.html"><button class="profile-button">Sign In</button></a> -->
-            <!-- <a id="question-link" href="./profile.html"><img class="profile-button" src="./src/images/profile.png"></a> -->
+            <a id="question-link" href="./public/profile.html"><img class="profile-button" src="./src/images/profile.png"></a>
         </div>
 
     </header>
@@ -57,7 +63,7 @@
             <a href="#" class="cta-button">Get Started</a>
         </div>
         <div class="hero-img">
-            <img src="./src/images/hero-img.png" alt="header-img" height="300px">
+            <img src="src/images/hero-img.png" alt="header-img" height="300px">
         </div>
     </section>
 
@@ -69,28 +75,28 @@
             <h2>Data Science for Everybody, Everywhere.</h2>
             <p>Learn fundamentals of data science, from data analysis to machine learning, gain insights to make
                 data-driven decisions.</p>
-            <a href="pages/data-science.html" class="learn-more-button">Learn More</a>
+            <a href="./public/data-science.html" class="learn-more-button">Learn More</a>
         </div>
         <div class="course-card">
             <img src="src/images/digital-marketing.jpg" alt="Course 2">
             <h2>Digital Marketing Fundamentals explained</h2>
             <p>Master the essentials of digital marketing, from SEO to social media, and boost your online presence to
                 reach a wider audience.</p>
-            <a href="pages/digital-marketing.html" class="learn-more-button">Learn More</a>
+            <a href="./public/digital-marketing.html" class="learn-more-button">Learn More</a>
         </div>
         <div class="course-card">
             <img src="src/images/ML-and-AI.png" alt="Course 3">
             <h2>Machine Learning and Artificial Intelligence</h2>
             <p>Dive into the world of AI and machine learning, explore cutting-edge algorithms, and create intelligent
                 applications.</p>
-            <a href="pages/ai-ml.html" class="learn-more-button">Learn More</a>
+            <a href="./public/ai-ml.html" class="learn-more-button">Learn More</a>
         </div>
         <div class="course-card">
             <img src="src/images/retirement-planning.jpg" alt="Course 4">
             <h2>Financial Planning for a Secure Retirement</h2>
             <p>Plan your financial future with confidence by understanding retirement strategies, investments, and
                 wealth management.</p>
-            <a href="pages/retirement.html" class="learn-more-button">Learn More</a>
+            <a href="./public/retirement.html" class="learn-more-button">Learn More</a>
         </div>
     </section>
 
@@ -162,9 +168,7 @@
             </div>
 
         </div>
-        <div class="discord-server-invite">
-            <a href="https://discord.gg/kR573YBTAU">Discord Server Invite ✉️</a>
-        </div>
+
 
 
 
@@ -172,7 +176,7 @@
 
 
 
-    <script src="./index.js"></script>
+    <script src="./script/index.js"></script>
 </body>
 
 </html>
