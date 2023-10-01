@@ -70,24 +70,8 @@ header {
     align-items: center;
     padding: 10px 20px;
     width: 100vw;
-    z-index:20;
 }
-/* ............................... */
-header .sticky{
-    /* background: #030429; */
-    padding: 10px 0;
-    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
-    
-}
-.sticky {
-    position: fixed; 
-     top: 0; 
-    width: 100%; 
-  }
-  .sticky + .content {
-    padding-top: 60px;
-  }
-  /* ................................. */
+
 .hero {
     height: 75vh;
     padding: 60px 40px;
