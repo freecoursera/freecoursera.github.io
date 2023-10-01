@@ -222,7 +222,7 @@ footer{
 
     .foot-panel1 .mobile-app-link{
         margin-top: 20px;
-
+        margin-left: 32px;
     }
 
     .foot-panel1 .mobile-app-link img{
@@ -237,6 +237,10 @@ footer{
 
     .foot-panel1 .more{
         margin-right: 130px;
+    }
+
+    .foot-panel1 .mobile-app-link{
+        margin-left: 65px;
     }
 }
 
