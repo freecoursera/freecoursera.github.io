@@ -12,17 +12,17 @@
 
 ::-webkit-scrollbar {
     width: 7px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+}
+
+/* Track */
+::-webkit-scrollbar-track {
     background: #ffffff;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: #1f4b8a;
-  }
+}
 
 .contribution-request {
     background-color: #000000;
@@ -32,11 +32,11 @@
     position: relative;
 }
 
-.contribution-request > p {
+.contribution-request>p {
     display: inline;
 }
 
-.contribution-request > a {
+.contribution-request>a {
     text-decoration: none;
     color: #ffffff;
     transition: 250ms;
@@ -44,11 +44,11 @@
 
 }
 
-.contribution-request > a:hover {
+.contribution-request>a:hover {
     text-decoration: none;
     color: #84d0ff;
     transition: 250ms;
-    text-decoration: underline white;   
+    text-decoration: underline white;
 }
 
 .hide {
@@ -92,7 +92,7 @@ header {
     justify-content: center;
 }
 
-.logo h1 a{
+.logo h1 a {
     text-decoration: none;
     color: white;
 }
@@ -102,15 +102,16 @@ h1 {
     font-family: 'Source Sans 3', sans-serif;
 }
 
-#search-input, #search-button {
+#search-input,
+#search-button {
     font-size: 16px;
 }
 
 .button-container {
-     position: relative;
-     display: inline-block;
-     overflow: visible;
-        }
+    position: relative;
+    display: inline-block;
+    overflow: visible;
+}
 
 .cta-button {
     display: inline-block;
@@ -122,8 +123,8 @@ h1 {
     border-radius: 5px;
     position: relative;
     z-index: 2;
-    transition: transform .3s cubic-bezier(.5,2.5,0,0);
-    }
+    transition: transform .3s cubic-bezier(.5, 2.5, 0, 0);
+}
 
 .cta-button:hover {
     transform: translate(0, -10%);
@@ -141,27 +142,27 @@ h1 {
     top: 0;
     left: 0;
     z-index: 1;
-    }
+}
 
 /* Styles for Footer */
 
-footer{
+footer {
     background-color: #f5f5f5;
     text-align: center;
-    padding: 10px 0 ;
-    padding-top:40px ;
+    padding: 10px 0;
+    padding-top: 40px;
 }
 
-.foot-panel1{
+.foot-panel1 {
     display: flex;
     flex-wrap: wrap;
     background-color: #f5f5f5;
     color: rgb(0, 0, 0);
     justify-content: space-evenly;
-    padding-bottom:60px;
+    padding-bottom: 60px;
 }
 
-.foot-panel1  ul a{
+.foot-panel1 ul a {
     text-decoration: none;
     display: block;
     font-size: 0.85rem;
@@ -170,29 +171,29 @@ footer{
     text-align: left;
 }
 
-.foot-panel1 ul a:hover{
+.foot-panel1 ul a:hover {
     text-decoration: underline;
 }
 
-.foot-panel1 ul p{
+.foot-panel1 ul p {
     font-weight: bold;
     text-align: left;
 }
 
-.mobile-app-link a{
+.mobile-app-link a {
     padding: 0.5rem;
 }
 
-.foot-panel2{
+.foot-panel2 {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin: 20px 60px;
     align-items: center;
 }
 
 
-.footer-social-icons a{
+.footer-social-icons a {
     font-size: xx-large;
     color: black;
     margin-right: 1rem;
@@ -203,15 +204,15 @@ footer{
         margin-left: 20px;
     }
 
-    .foot-panel1 ul{
+    .foot-panel1 ul {
         margin-top: 40px;
     }
 
-    .foot-panel1 ul p{
+    .foot-panel1 ul p {
         margin: 10px 0;
     }
 
-    .foot-panel1 .mobile-app-link{
+    .foot-panel1 .mobile-app-link {
         text-align: center;
     }
 
@@ -220,26 +221,26 @@ footer{
         text-align: center;
     }
 
-    .foot-panel1 .mobile-app-link{
+    .foot-panel1 .mobile-app-link {
         margin-top: 20px;
         margin-left: 32px;
     }
 
-    .foot-panel1 .mobile-app-link img{
+    .foot-panel1 .mobile-app-link img {
         margin-right: 1000px;
     }
 }
 
-@media (max-width: 500px){
-    .foot-panel1{
+@media (max-width: 500px) {
+    .foot-panel1 {
         flex-wrap: wrap;
     }
 
-    .foot-panel1 .more{
+    .foot-panel1 .more {
         margin-right: 130px;
     }
 
-    .foot-panel1 .mobile-app-link{
+    .foot-panel1 .mobile-app-link {
         margin-left: 65px;
     }
 }
@@ -289,6 +290,7 @@ footer{
     font-weight: bold;
     border-radius: 5px;
 }
+
 /* search bar */
 /* Add styles for the search bar */
 .search-bar {
@@ -303,8 +305,8 @@ footer{
     border-top-left-radius: 5px;
     outline: none;
     border: none;
-    border: 2px solid #014a67;  
-    border-right: 1.5px solid #012b67;  
+    border: 2px solid #014a67;
+    border-right: 1.5px solid #012b67;
 }
 
 #search-button {
@@ -336,7 +338,7 @@ footer{
     cursor: pointer;
     border-radius: 5px;
     transition: 500ms;
-} 
+}
 
 .profile-button:hover {
     background-color: #0862df;
@@ -345,7 +347,8 @@ footer{
     transition: 500ms;
 }
 
-#question-div, #question-link {
+#question-div,
+#question-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -362,9 +365,10 @@ img.profile-button {
 img.profile-button:hover {
     height: 55px;
     padding: 0;
-    margin:0 0 0 -5px;
+    margin: 0 0 0 -5px;
     transition: 500ms;
 }
+
 /* css for cards */
 /* Add hover styles for course cards */
 .course-card {
@@ -374,7 +378,8 @@ img.profile-button:hover {
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #fff;
-    transition: transform 0.2s; /* Add a smooth transition effect */
+    transition: transform 0.2s;
+    /* Add a smooth transition effect */
 }
 
 .course-card img {
@@ -385,7 +390,7 @@ img.profile-button:hover {
 
 .course-card h2 {
     font-size: 18px;
-    margin:0 12px 10px;
+    margin: 0 12px 10px;
     text-align: left;
 }
 
@@ -409,13 +414,19 @@ img.profile-button:hover {
 
 /* Add hover effect */
 .course-card:hover {
-    transform: scale(1.05); /* Increase size on hover */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+    transform: scale(1.05);
+    /* Increase size on hover */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    /* Add a shadow on hover */
 }
 
-.footer-social-icons a:hover{
-    color:  #0786ca;
+.footer-social-icons a:hover {
+    color: #0786ca;
 }
 
-
-
+#course-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
