@@ -9,3 +9,8 @@ document.querySelector(".submit-div").addEventListener('click', (event) => {
 
   localStorage.setItem('profileDetails', JSON.stringify(profileDetails))
 })
+
+// functio to go back to previous page
+function previousPage() {
+  window.history.back();
+}
