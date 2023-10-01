@@ -417,5 +417,26 @@ img.profile-button:hover {
     color:  #0786ca;
 }
 
+#course-list {
+    position: absolute;
+    top:75px;
+    right:5px;
+    z-index: 1;
+    background-color: white;
+    color:black;
+    border: 1px solid rgb(158, 141, 141);
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  #course-list li {
+    padding: 8px;
+    cursor: pointer;
+    user-select: none; 
+    border-bottom: 1px solid rgb(192, 171, 171);
+  }
+  #course-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
 
 
