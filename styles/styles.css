@@ -7,6 +7,10 @@
     font-family: 'Source Sans 3', sans-serif;
     overflow-x: hidden;
 }
+:root{
+      --primary-color:white;
+      --secondary:#333;
+}
 
 /* Scrollbar css */
 
@@ -16,14 +20,19 @@
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #ffffff;
+    background: var(--primary-color);
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #1f4b8a;
   }
-
+  .dark-theme{
+    background-color:black;
+   --primaryt-color:white;
+   --primary-color:white;
+   --secondary:white;
+}
 .contribution-request {
     background-color: #000000;
     color: #ffffff;
@@ -72,6 +81,10 @@ header {
     width: 100vw;
     z-index:20;
 }
+header img{
+    width:20px;
+    height:20px;
+}
 /* ............................... */
 header .sticky{
     /* background: #030429; */
@@ -92,7 +105,7 @@ header .sticky{
     height: 75vh;
     padding: 60px 40px;
     background-size: cover;
-    color: #333;
+    color: var(--secondary);
     display: flex;
     align-items: center;
 }

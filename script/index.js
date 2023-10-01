@@ -23,3 +23,14 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+// function to Toggle Light and Dark Mode 
+var icon = document.getElementById("icon");
+    icon.onclick = function(){
+      document.body.classList.toggle("dark-theme");
+      if(document.body.classList.contains("dark-theme")){
+        icon.src = "./src/images/sun (1).png";
+      }
+      else{
+        icon.src = "./src/images/moon.png";
+      }
+    }
