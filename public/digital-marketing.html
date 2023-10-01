@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/style-courses.css">
     
+    <script src="../script//search.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+3&display=swap" rel="stylesheet">
@@ -21,7 +22,7 @@
             <h1><a href="/">coursera</a></h1>
         </div>
         <div class="search-bar">
-            <input type="text" id="search-input" placeholder="Search for a course...">
+            <input type="text" id="search-input" placeholder="Search for a course..." onchange="Search()">
             <button id="search-button">
                 <svg xmlns="http://www.w3.org/2000/svg" height="1em"
                     viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -34,8 +35,14 @@
                         d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
                 </svg>
             </button>
+            <div class="search-area" id="search-tray">
+                <div class="search-topic" id="topic-null" >No results found <button onclick="closeSearch()">Close</button></div>
 
-
+                <a class="search-topic" id="topic-0" onclick="closeSearch()" href="./data-science.html">Data Science for Everybody, Everywhere.</a>
+                <a class="search-topic" id="topic-1" onclick="closeSearch()" href="./digital-marketing.html">Digital Marketing Fundamentals explained</a>
+                <a class="search-topic" id="topic-2" onclick="closeSearch()" href="./ai-ml.html">Machine Learning and Artificial Intelligence</a>
+                <a class="search-topic" id="topic-3" onclick="closeSearch()" href="./retirement.html">Financial Planning for a Secure Retirement</a>
+            </div>
         </div>
 
 

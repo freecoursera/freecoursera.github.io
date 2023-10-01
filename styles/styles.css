@@ -434,4 +434,33 @@ img.profile-button:hover {
 }
 
 
+/* SEARCH BAR */
+
+.search-area{
+    position: absolute;
+    width:20%;
+    background-color: #ffffff;
+    border:2px solid #000000;
+    top: 70px;
+    right: 10px;
+    display: none;
+}
+.search-topic{
+    width:100%;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    border:1px solid #000000;
+    display: none;
+}
+
+.search-topic button{
+    background-color: #00000000;
+    color: #0056D2;
+    margin-left: 5px;
+    border: none;
+}
 
