@@ -130,42 +130,7 @@ h1 {
 }
 
 .cta-button-back {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: black;
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
 
-footer {
-  background-color: #f5f5f5;
-  text-align: center;
-  padding: 10px 0;
-  padding-top: 40px;
-}
-
-.foot-panel1 {
-  display: flex;
-  background-color: #f5f5f5;
-  color: rgb(0, 0, 0);
-  justify-content: space-evenly;
-  padding-bottom: 60px;
-}
-
-.foot-panel1 ul a {
-  text-decoration: none;
-  display: block;
-  font-size: 0.85rem;
-  margin-top: 5px;
-  color: #000000;
-  text-align: left;
-}
 
 .foot-panel1 ul a:hover {
   text-decoration: underline;
@@ -180,17 +145,50 @@ footer {
   padding: 0.5rem;
 }
 
-.foot-panel2 {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 60px;
-  align-items: center;
+@media (max-width: 600px) {
+    .foot-panel1 {
+        margin-left: 20px;
+    }
+
+    .foot-panel1 ul{
+        margin-top: 40px;
+    }
+
+    .foot-panel1 ul p{
+        margin: 10px 0;
+    }
+
+    .foot-panel1 .mobile-app-link{
+        text-align: center;
+    }
+
+    .foot-panel2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foot-panel1 .mobile-app-link{
+        margin-top: 20px;
+        margin-left: 32px;
+    }
+
+    .foot-panel1 .mobile-app-link img{
+        margin-right: 1000px;
+    }
 }
 
-.footer-social-icons a {
-  font-size: xx-large;
-  color: black;
-  margin-right: 1rem;
+@media (max-width: 500px){
+    .foot-panel1{
+        flex-wrap: wrap;
+    }
+
+    .foot-panel1 .more{
+        margin-right: 130px;
+    }
+
+    .foot-panel1 .mobile-app-link{
+        margin-left: 65px;
+    }
 }
 
 /* cards */
@@ -367,6 +365,7 @@ img.profile-button:hover {
   color: #0786ca;
 }
 
+  
 @media (max-width: 768px) {
   .logo h1 a {
     text-decoration: none;
