@@ -5,3 +5,8 @@ if (!(JSON.parse( localStorage.getItem("profileDetails")))) {
 function deleteContributionRequest() {
   document.querySelector(".contribution-request").remove();
 }
+
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }
