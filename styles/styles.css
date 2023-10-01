@@ -419,8 +419,8 @@ img.profile-button:hover {
 
 #course-list {
     position: absolute;
-    top:70px;
-    right:2px;
+    top:75px;
+    right:5px;
     z-index: 1;
     background-color: white;
     color:black;
