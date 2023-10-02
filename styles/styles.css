@@ -79,6 +79,7 @@ header {
     color: #333;
     display: flex;
     align-items: center;
+    background-color: #F2F2F2;
 }
 
 .hero-text {
@@ -155,7 +156,6 @@ footer{
 .foot-panel1{
     display: flex;
     flex-wrap: wrap;
-    background-color: #f5f5f5;
     color: rgb(0, 0, 0);
     justify-content: space-evenly;
     padding-bottom:60px;
@@ -251,6 +251,7 @@ footer{
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px;
+    background-color: #FEFEFE;
 }
 
 .course-card {
