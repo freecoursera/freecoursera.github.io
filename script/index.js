@@ -53,3 +53,19 @@ searchButton.addEventListener("click", function () {
     card.style.display = cardVisible ? "block" : "none";
   });
 });
+
+// Get the scroll-to-top-button
+let topBtn = document.getElementById('top-button');
+
+window.addEventListener('scroll', function () {
+  if (window.scrollY > 300) {
+    topBtn.classList.add('show');
+  } else {
+    topBtn.classList.remove('show');
+  }
+});
+
+topBtn.addEventListener('click', function (e) {
+  e.preventDefault();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
