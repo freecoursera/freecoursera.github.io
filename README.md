@@ -1,19 +1,19 @@
 # COURSERA CLONE
 
-This is a replica of [COURSERA](https://freecoursera.github.io/), a educational website.
+This is a replica of [COURSERA](https://freecoursera.github.io/), an educational website.
 
 A preview of the website is available [here](https://freecoursera.github.io/) 
 
-# This Project is currely built with:
+# This Project is currently built with:
 - HTML
 - CSS 
 - JavaScript
 - React
-- Wanna add to this list. Start [contributing](https://github.com/freecoursera/freecoursera.github.io/blob/main/.github/CONTRIBUTING.md).
+- Wanna add to this list? Start [contributing](https://github.com/freecoursera/freecoursera.github.io/blob/main/.github/CONTRIBUTING.md).
 
 ## Future Enhancements
 
-- There are tons of things this project needs help with, We are planning to add backend and improve the frontend section.
+- There are tons of things this project needs help with, we are planning to add backend and improve the frontend section.
 
 - Contributions would be hugely appreciated.
 
